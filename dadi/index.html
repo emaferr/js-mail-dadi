@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang="it">
+
+  <head>
+
+    <title>JS | Gioco dadi</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    <header>
+        
+        <nav class="navbar navbar-light bg-light">
+
+            <a class="navbar-brand mx-auto" href="#">
+              <img src="./assets/img/kisspng-dice-drawing-coloring-book-game-dice-images-free-5aa9e3974d7b07.5031192215210832873174.png" width="auto" height="100" class="d-inline-block align-middle" alt="Immagine di due dadi da gioco">
+              <strong class="">IL GIOCO DEI DADI</strong>
+              <img src="./assets/img/kisspng-dice-drawing-coloring-book-game-dice-images-free-5aa9e3974d7b07.5031192215210832873174.png" width="auto" height="100" class="d-inline-block align-middle" alt="Immagine di due dadi da gioco">
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="interagisci text-center my-4">
+
+            <input type="button" value="GIOCA!" onclick="window.location.reload()" id="gioca" class="btn btn-success btn-lg mx-auto">
+
+        </div>
+
+        <div class="giocate">
+
+            <div class="container">
+
+                <div class="row text-center">
+                    
+                    <div class="col my-3">
+                        <h5>Numero Utente</h5>
+                        <span id="numero_utente" class="px-2 py-1"></span>
+                    </div>
+
+                    <div class="col my-3">
+                        <h5>Numero Computer</h5>
+                        <span id="numero_computer" class="px-2 py-1"></span>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="esito bg-light p-4 my-4">
+
+            <h5 id="esito" class="text-uppercase text-center font-weight-bold"></h5>
+
+        </div>
+
+    </footer>
+
+    
+      
+    <!-- My JavaScript -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  </body>
+
+</html>

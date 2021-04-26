@@ -1,0 +1,9 @@
+*{
+    font-family: 'Fredoka One', cursive;
+}
+
+.container span{
+    font-size: 1.3rem;
+    border: 2px solid rgb(242, 145, 0);
+    border-radius: 30%;
+}
